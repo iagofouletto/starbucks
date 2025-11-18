@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- IA - Assistente Virtual -->
+    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/09/27/19/20250927194940-7EYXIDYK.js" defer></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JS -->
+    <script src="script.js" defer></script>
+
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Starbucks DevClub</title>
+  </head>
+
+  <body>
+    <!-- Fundo circular -->
+    <div class="circulo"></div>
+
+    <!-- Logo -->
+    <img src="img/logo.png" alt="logo starbucks" class="logo" />
+
+    <!-- Conteúdo -->
+    <div class="caixa-conteudo">
+      <div class="caixa-textos">
+        <h2>
+          It's not just Coffee, It's
+          <span class="texto-starbucks">Starbucks</span>
+        </h2>
+
+        <p class="paragrafo">
+          A Starbucks não é apenas café — é uma experiência única de sabor e
+          aconchego. Sinta o aroma, o design e o estilo da marca mais famosa do
+          mundo agora em uma versão interativa feita em HTML, CSS e JavaScript!
+        </p>
+
+        <button type="button">Clique no SININHO ☕</button>
+      </div>
+
+      <div class="caixa-imagem">
+        <img src="img/img1.png" alt="copo starbucks" class="imagem-copo" />
+      </div>
+    </div>
+
+    <!-- Miniaturas -->
+    <div class="caixa-menu">
+      <img
+        src="img/thumb1.png"
+        alt="copo botão 1"
+        class="botao-menu"
+        onclick="mudarCor('#017143'); trocaImagem('img/img1.png')"
+      />
+
+      <img
+        src="img/thumb2.png"
+        alt="copo botão 2"
+        class="botao-menu"
+        onclick="mudarCor('#eb7495'); trocaImagem('img/img2.png')"
+      />
+
+      <img
+        src="img/thumb3.png"
+        alt="copo botão 3"
+        class="botao-menu"
+        onclick="mudarCor('#d752b1'); trocaImagem('img/img3.png')"
+      />
+    </div>
+  </body>
+</html>
